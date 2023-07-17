@@ -86,3 +86,6 @@ def check_answer3(name, n):
         return
 
     print("Both 3.1 and 3.2 are correct! :)")
+
+
+create_solution_functions()
