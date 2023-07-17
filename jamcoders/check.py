@@ -65,13 +65,13 @@ def create_solution_functions():
                 print()
         return solution_function
 
-    globals_ = globals()
+    # globals_ = globals()
     for question, solution in solutions.items():
         name = f"check_answer{question}"
         print("Making function:", name)
         fn = make_solution_function(solution)
         fn.__name__ = name
-        globals_[name] = fn
+        globals()[name] = fn
 
    
 
