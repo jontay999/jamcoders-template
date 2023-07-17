@@ -71,7 +71,7 @@ def create_solution_functions():
         fn = make_solution_function(solution)
         fn.__name__ = name
         globals()[name] = fn
-        print("Modified function:", name in globals())
+        # print("Modified function:", name in globals())
 
    
 
